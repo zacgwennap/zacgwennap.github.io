@@ -9,7 +9,7 @@ description: "Welcome to my personal portfolio website. Explore my projects, ski
 Hello! My name is Zac Gwennap, a Mechanical Engineer interested in additive manufacturing, design, and robotics.
 
 <div style="text-align: center;">
-  <img src="assets/headshot.jpg" alt="Headshot" width="400">
+  <img src="assets/headshot.JPG" alt="Headshot" width="400">
 </div>
 
 ## Who I Am
@@ -18,8 +18,8 @@ I recently graduated from the University of California, Berkeley in 2024 with a 
 Outside of work, you will find me rock climbing and designing 3D printers!
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="assets/MoXY_cad.jpg" alt="Image 1" height="600">
-  <img src="assets/climbing.jpg" alt="Image 2" height="600">
+  <img src="assets/MoXY_cad.jpg" alt="3D Printer CAD" height="600">
+  <img src="assets/climbing.jpg" alt="Rock Climbing at the Beach" height="600">
 </div>
 
 
