@@ -1,11 +1,11 @@
 ---
 layout: default
-title: About
+title: About Me
 nav_order: 1
 description: "Welcome to my personal portfolio website. Explore my projects, skills, and experience."
 ---
 
-## About
+## About Me
 Hello! My name is Zac Gwennap, a Mechanical Engineer interested in additive manufacturing, design, and robotics.
 
 <div style="text-align: center;">
