@@ -10,7 +10,7 @@ nav_order: 1
 MoXY is a custom FDM Cross Gantry 3D printer fully designed by me. 
 
 <div style="text-align: center;">
-  <img src="assets/MoXY_cad.jpg" alt="CAD Model of MoXY 3D Printer" height="400">
+  <img src="assets/MoXY_cad.jpg" alt="CAD Model of MoXY 3D Printer" height="500px">
 </div>
 
 During my first semester at Berkeley, one of my professors stated that 3D printing should not be used for concept design because it was too slow. I always wanted to change that narrative and got heavily invested in 3D printer design.
@@ -18,7 +18,7 @@ During my first semester at Berkeley, one of my professors stated that 3D printi
 Summer 2024 is when I began development of MoXY, a FDM 3D printer capable of high speeds and the ability to print exotic materials (120+&deg;C). It utilizes an all steel frame to minimize the effect of [bimetallic expansion](https://en.wikipedia.org/wiki/Bimetallic_strip), contrary to other printers that use steel rails on an aluminum beam. 
 
 <div style="text-align: center;">
-  <img src="assets/bimetallic_expansion.jpg" alt="Bimetallic Expansion Diagram" height="250">
+  <img src="assets/bimetallic_expansion.jpg" alt="Bimetallic Expansion Diagram" height="150">
 </div>
 
 ## Motion System
@@ -27,7 +27,7 @@ This design consists of 8 stepper motors controlling XY movement to increase tor
 
 Important consideration was taken for bearing and shaft design, since the tension of belts is very high. Needle bearings are used to distribute the load, and shaft deflection calculations were shown to be well within the limits of shaft geometry.
 
-Using Mersennes Law:
+Using Mersennes Law:\
 $$ \delta_{max} = \frac{Fb \left( L^2 - b^2 \right)^{3/2}}{9 \sqrt{3} L E I}$$
 
 Shaft deflection was determined to be within material properties.
@@ -44,7 +44,7 @@ The XY motion system relies on linear rails for alignment. Similar to the [Panth
 I created a new extruder design to fit the design constraints of my printer. It involves a 15:1 worm gear reduction and fully metal construction. The main parts wwere outsourced to a SLM metal manufacturer, and were printed in 316L stainless steel. The metal construction is necessary to radiate the excess heat generated through the extruder motor and hotend.
 
 <div style="text-align: center;">
-  <img src="assets/extruder.jpg" alt="Extruder Image" height="400">
+  <img src="assets/extruder.jpg" alt="Extruder Image" height="500px">
 </div>
 
 ## Heated Bed Design
@@ -52,7 +52,7 @@ I created a new extruder design to fit the design constraints of my printer. It 
 As the bed heats up, the thermal expansion of the bed will cause the bed to bend or bind up the linear rails. To compensate for this, a [Maxwell kinematic coupling](https://en.wikipedia.org/wiki/Kinematic_coupling) is used to precisely position the bed while allowing it to expand.
 
 <div style="text-align: center;">
-  <img src="assets/maxwell_coupling.jpg" alt="Maxwell Coupling Design" height="400">
+  <img src="assets/maxwell_coupling.jpg" alt="Maxwell Coupling Design" height="500px">
 </div>
 
 ## Specs:
