@@ -18,8 +18,8 @@ I recently graduated from the University of California, Berkeley in 2024 with a 
 Outside of work, you will find me rock climbing and designing 3D printers!
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="assets/MoXY_cad.jpg" alt="3D Printer CAD" height="300">
-  <img src="assets/climbing.jpg" alt="Rock Climbing at the Beach" height="300">
+  <img src="assets/MoXY_cad.jpg" alt="3D Printer CAD" height="100">
+  <img src="assets/climbing.jpg" alt="Rock Climbing at the Beach" height="100">
 </div>
 
 
