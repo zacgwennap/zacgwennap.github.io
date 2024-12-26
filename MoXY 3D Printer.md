@@ -27,8 +27,11 @@ This design consists of 8 stepper motors controlling XY movement to increase tor
 
 Important consideration was taken for bearing and shaft design, since the tension of belts is very high. Needle bearings are used to distribute the load, and shaft deflection calculations were shown to be well within the limits of shaft geometry.
 
-Using Mersennes Law:\
-$$ \delta_{max} = \frac{Fb \left( L^2 - b^2 \right)^{3/2}}{9 \sqrt{3} L E I}$$
+Using Mersennes Law:
+
+```math
+\delta_{max} = \frac{Fb \left( L^2 - b^2 \right)^{3/2}}{9 \sqrt{3} L E I}
+```
 
 Shaft deflection was determined to be within material properties.
 
