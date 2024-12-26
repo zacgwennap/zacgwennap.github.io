@@ -13,13 +13,7 @@ I recently graduated from the University of California, Berkeley in 2024 with a 
 
 Outside of work, you will find me rock climbing and designing 3D printers!
 
-### Quick Links
+## Quick Links
 - **[GitHub]({{ site.aux_links.GitHub}})**  
 - **[LinkedIn]({{ site.aux_links.LinkedIn }})**  
 - **[Resume (PDF)](resume.pdf)**  
-
-Feel free to explore, and thank you for visiting!
-
-
-
-
