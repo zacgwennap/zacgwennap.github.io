@@ -5,9 +5,7 @@ nav_order: 1
 description: "Welcome to my personal portfolio website. Explore my projects, skills, and experience."
 ---
 
-![Headshot](assets/headshot.jpg)
-
-![](assets/images/image-name.jpg)
+![Headshot](assets/headshot.JPG)
 
 
 ## About
