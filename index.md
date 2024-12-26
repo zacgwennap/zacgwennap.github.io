@@ -5,8 +5,7 @@ nav_order: 1
 description: "Welcome to my personal portfolio website. Explore my projects, skills, and experience."
 ---
 
-![Headshot](assets/headshot.JPG)
-
+<img src="assets/headshot.JPG" alt="Headshot" width="300">
 
 ## About
 Hello! My name is Zac Gwennap, a Mechanical Engineer interested in additive manufacturing, design, and robotics.
