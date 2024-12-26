@@ -18,7 +18,7 @@ During my first semester at Berkeley, one of my professors stated that 3D printi
 Summer 2024 is when I began development of MoXY, a FDM 3D printer capable of high speeds and the ability to print exotic materials (120+&deg;C). It utilizes an all steel frame to minimize the effect of [bimetallic expansion](https://en.wikipedia.org/wiki/Bimetallic_strip), contrary to other printers that use steel rails on an aluminum beam. 
 
 <div style="display: flex; justify-content: center;">
-  <img src="assets/bimetallic_expansion.jpg" alt="Bimetallic Expansion Diagram" style="height: 200px; width: auto;">
+  <img src="assets/bimetallic_expansion.jpg" alt="Bimetallic Expansion Diagram" style="height: 300px; width: auto;">
 </div>
 
 ## Motion System
@@ -47,7 +47,7 @@ The XY motion system relies on linear rails for alignment. Similar to the [Panth
 I created a new extruder design to fit the design constraints of my printer. It involves a 15:1 worm gear reduction and fully metal construction. The main parts wwere outsourced to a SLM metal manufacturer, and were printed in 316L stainless steel. The metal construction is necessary to radiate the excess heat generated through the extruder motor and hotend.
 
 <div style="display: flex; justify-content: center;">
-  <img src="assets/extruder.jpg" alt="Extruder Image" style="height: 200px; width: auto;">
+  <img src="assets/extruder.jpg" alt="Extruder Image" style="height: 400px; width: auto;">
 </div>
 
 ## Heated Bed Design
@@ -55,7 +55,7 @@ I created a new extruder design to fit the design constraints of my printer. It 
 As the bed heats up, the thermal expansion of the bed will cause the bed to bend or bind up the linear rails. To compensate for this, a [Maxwell kinematic coupling](https://en.wikipedia.org/wiki/Kinematic_coupling) is used to precisely position the bed while allowing it to expand.
 
 <div style="display: flex; justify-content: center;">
-  <img src="assets/maxwell_coupling.jpg" alt="Maxwell Coupling Design" style="height: 200px; width: auto;">
+  <img src="assets/maxwell_coupling.jpg" alt="Maxwell Coupling Design" style="height: 400px; width: auto;">
 </div>
 
 ## Specs:
