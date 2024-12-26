@@ -19,8 +19,8 @@ Welcome to my portfolio! This website showcases my skills, projects, and experie
 ---
 
 ### Quick Links
-- **[GitHub](https://github.com/yourusername)**  
-- **[LinkedIn](https://linkedin.com/in/yourusername)**  
+- **[GitHub]({{ site.aux_links.GitHub}})**  
+- **[LinkedIn]({{ site.aux_links.LinkedIn }})**  
 - **[Resume (PDF)](resume.pdf)**  
 
 Feel free to explore, and thank you for visiting!
