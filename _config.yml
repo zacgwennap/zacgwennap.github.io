@@ -1,8 +1,12 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+# Site metadata
+title: Zac Gwennap Portfolio
+description: Explore my personal portfolio showcasing projects, skills, and professional experience. Built with Just the Docs and GitHub Pages.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+# Site URL
+url: https://ZacCac.github.io
 
+# Auxiliary links (if needed)
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  GitHub Repository: https://github.com/ZacCac/ZacCac.github.io
+  LinkedIn: https://www.linkedin.com/in/zacgwennap/
