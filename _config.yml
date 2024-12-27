@@ -1,7 +1,7 @@
 # Site metadata
 title: Zac Gwennap Portfolio
 description: Explore my personal portfolio showcasing projects, skills, and professional experience. Built with Just the Docs and GitHub Pages.
-theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 # Site URL
 url: https://ZacCac.github.io
