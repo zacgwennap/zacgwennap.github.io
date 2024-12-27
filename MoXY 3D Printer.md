@@ -5,6 +5,10 @@ parent: Projects
 nav_order: 1
 ---
 
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 # MoXY 3D Printer
 
 MoXY is a custom FDM Cross Gantry 3D printer fully designed by me. 
