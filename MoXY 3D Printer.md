@@ -29,9 +29,9 @@ Important consideration was taken for bearing and shaft design, since the tensio
 
 Using Mersennes Law:
 
-```math
+$$
 \delta_{max} = \frac{Fb \left( L^2 - b^2 \right)^{3/2}}{9 \sqrt{3} L E I}
-```
+$$
 
 Shaft deflection was determined to be within material properties.
 

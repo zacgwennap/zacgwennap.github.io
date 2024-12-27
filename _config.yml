@@ -10,3 +10,16 @@ url: https://ZacCac.github.io
 aux_links:
   GitHub: https://github.com/ZacCac
   LinkedIn: https://www.linkedin.com/in/zachary-gwennap/
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      includes:
+        - mathjax
