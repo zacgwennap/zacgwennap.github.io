@@ -22,7 +22,7 @@ During my first semester at Berkeley, one of my professors stated that 3D printi
 Summer 2024 is when I began development of MoXY, a FDM 3D printer capable of high speeds and the ability to print exotic materials (120+&deg;C). It utilizes an all steel frame to minimize the effect of [bimetallic expansion](https://en.wikipedia.org/wiki/Bimetallic_strip), contrary to other printers that use steel rails on an aluminum beam. 
 
 <div style="display: flex; justify-content: center;">
-  <img src="assets/bimetallic_expansion.jpg" alt="Bimetallic Expansion Diagram" style="height: 300px; width: auto;">
+  <img src="assets/bimetallic_expansion.jpg" alt="Bimetallic Expansion Diagram" style="height: 200px; width: auto;">
 </div>
 
 ## Motion System
