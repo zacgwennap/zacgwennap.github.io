@@ -30,6 +30,3 @@ Beyond school and work, I’m an avid rock climber and an enthusiast for designi
 - **[GitHub]({{ site.aux_links.GitHub}})**  
 - **[LinkedIn]({{ site.aux_links.LinkedIn }})**  
 - **[Resume (PDF)](resume.pdf)**  
-
-
----
