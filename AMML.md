@@ -15,7 +15,7 @@ nav_order: 1
   };
 </script>
 
-## Undergraduate Researcher  
+# Undergraduate Researcher  
 **Additive Manufacturing and Metamaterials Lab (AMML)**  
 **UC Berkeley** | *May 2023 – December 2024*
 
@@ -41,9 +41,8 @@ I designed and fabicated a DLP printer that incorporated a new cleaning method b
 **In-situ Electroless Plating:** Contributed to a project incorporating automated electroless plating techniques, though it was not completed before my graduation. The printer I designed encorporated a 3D printed rotary stage for cycling between vats.
 
 **SolidWorks Model of the Rotary 3D Printer**
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="assets/rotary_printer.jpg" alt="Render of the Rotary Printer" style="height: 400px; width: auto;">
-  <img src="assets/rotary_cross_section.jpg" alt="Cross Section of the Rotary Stage" style="height: 400px; width: auto;">
+<div style="display: flex; justify-content: center;">
+  <img src="assets/rotary_printer.jpg" alt="Render of Rotary Printer" style="height: 400px; width: auto;">
 </div>
 
 ### P$\mu$SL Lattices
