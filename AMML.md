@@ -63,7 +63,7 @@ I developed a **MATLAB** script to detect and adjust slicing outliers, ensuring 
 I also designed piezoelectric bimorphs for actuating. The final model was a 2-axis bimorph structure that resulted in 100 microns of displacement in a 3x3x1cm package. To increase the amplitude, another stage of amplification was designed and simulated in **Solidworks**, as shown below. I fabricated printed piezoelectric composites in several lattice configurations made for high density actuator systems.
 
 <div style="display: flex; justify-content: center;">
-  <video style="height: 600px; width: auto;" controls autoplay loop muted>
+  <video style="height: 500px; width: auto;" controls autoplay loop muted>
     <source src="assets/amplifier.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
