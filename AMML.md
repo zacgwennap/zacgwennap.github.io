@@ -21,7 +21,7 @@ nav_order: 1
 
 ---
 
-### Overview  
+## Overview  
 As an undergraduate researcher, I focused on advancing **multimaterial Digital Light Processing (DLP) 3D printing** and the development of **piezoelectric actuators**. My work involved designing 3D printers and their software, manufacturing small scale piezoelectric actuators, and optimizing printing parameters of novel printing techniques.
 
 ---
@@ -62,10 +62,12 @@ I developed a **MATLAB** script to detect and adjust slicing outliers, ensuring 
 ### Piezoelectric Actuator
 I also designed piezoelectric bimorphs for actuating. The final model was a 2-axis bimorph structure that resulted in 100 microns of displacement in a 3x3x1cm package. To increase the amplitude, another stage of amplification was designed and simulated in **Solidworks**, as shown below. I fabricated printed piezoelectric composites in several lattice configurations made for high density actuator systems.
 
-<video width="640" height="360" controls autoplay loop muted>
-  <source src="assets/amplifier.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div style="display: flex; justify-content: center;">
+  <video style="height: 600px; width: auto;" controls autoplay loop muted>
+    <source src="assets/amplifier.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 ---
 

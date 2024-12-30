@@ -25,10 +25,13 @@ During prototyping, I noticed the need for clear identification of the faces. To
 The slicing parameters were optimized to balance impact resistance and lightweight construction. The design is robust enough to withstand falls yet light enough to be easily carried in one hand. The holds were altered to have a textured outer surface. This makes the holds easier to grip with sweaty hands.
 
 ** Video of my modified Voron 2.4 3D printer printing out holds at quality speeds**
-<video style="height: 600px; width: auto;" controls autoplay loop muted>
-  <source src="assets/printing_boulder_ball.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div style="display: flex; justify-content: center;">
+  <video style="height: 600px; width: auto;" controls autoplay loop muted>
+    <source src="assets/printing_boulder_ball.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
 
 I have made the Boulder Ball as a gift for several of my friends, and they have been used for many hours without breaking.
 

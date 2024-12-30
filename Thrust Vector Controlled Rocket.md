@@ -43,7 +43,7 @@ To model the rocket’s motion, I developed a Python-based 2D simulation. Using 
 
 **Output plots of the simulation**
 <div style="display: flex; justify-content: center;">
-  <img src="assets/rocket_sim.jpg" alt="Output plots of the simulation" style="height: 400px; width: auto;">
+  <img src="assets/rocket_sim.jpg" alt="Output plots of the simulation" style="height: 500px; width: auto;">
 </div>
 
 ---
