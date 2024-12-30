@@ -46,5 +46,3 @@ As a volunteer, I contributed to the development of a retrieval system for incap
 To optimize the retrieval system, I developed a **Python script** to calculate the energy expenditure required to transport an astronaut based on key parameters, including weight, terrain type, and vehicle efficiency. These calculations informed my design choices, ensuring the prototype could effectively operate under real-world lunar conditions.  
 
 This project showcased my ability to integrate mechanical design, research, and computational tools to solve complex engineering challenges in space exploration.
-
----

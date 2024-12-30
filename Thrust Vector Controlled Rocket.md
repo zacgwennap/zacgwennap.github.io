@@ -64,5 +64,3 @@ To model the rocket’s motion, I developed a Python-based 2D simulation. Using 
 - The TVC system, while functional, exhibited significant mechanical slop, compromising movement accuracy. Addressing this would require either improved hardware tolerances or a robust control algorithm.
 - Tackling unfamiliar, complex projects is highly rewarding but requires balancing new challenges with existing skills to maintain progress and motivation.\
 - This project reinforced my passion for designing and building tangible, real-world systems with practical applications.
-
----

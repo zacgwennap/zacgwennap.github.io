@@ -78,5 +78,3 @@ I also designed piezoelectric bimorphs for actuating. The final model was a 2-ax
 - **Software Proficiency:** MATLAB, LabVIEW, SolidWorks, Arduino, Python.  
 - **Lab Equipment:** Tensile testing machines, centrifuges, 3D printers, ovens, and precision measurement tools.  
 - **Materials Expertise:** Worked with hazardous materials, ensuring safety and compliance.  
-
----

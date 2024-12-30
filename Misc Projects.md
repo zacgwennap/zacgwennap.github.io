@@ -65,6 +65,5 @@ Long climbing brushes are usually expensive or heavy. I designed and 3D printed 
   <img src="assets/climbing_brush.jpg" alt="Group Poster" style="height: 400px; width: auto;">
 </div>
 
----
 
 

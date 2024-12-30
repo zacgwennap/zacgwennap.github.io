@@ -116,5 +116,3 @@ MoXY operates on a 24V supply for general components, while a 48V supply drives 
 
 ## Future Developments:
 - 120 &deg;C chamber (insulation and chamber heaters)
-
----
