@@ -6,16 +6,16 @@ description: "Welcome to my personal portfolio website. Explore my projects, ski
 ---
 
 ## About Me
-Hello! My name is Zac Gwennap, a Mechanical Engineer interested in additive manufacturing, design, and robotics.
+Hello! My name is Zac Gwennap, and I’m a passionate **Mechanical Engineer** with a keen interest in additive manufacturing, design, and robotics.  
 
 <div style="text-align: center;">
   <img src="assets/headshot.JPG" alt="Headshot" width="400">
 </div>
 
 ## Who I Am
-I recently graduated from the University of California, Berkeley in 2024 with a degree in Mechanical Engineering. My past experience includes being an <a href="https://www.nasa.gov/stem-content/x-59-3d-printing/" target="_blank">intern at NASA Headquarters</a> and working as an undergraduate researcher at the <a href="https://www.raynexzheng.com/" target="_blank">Additive Manufacturing and Metamaterials Lab (AMML)</a> for over two years.
+I graduated from the **University of California, Berkeley** in December 2024 with a degree in **Mechanical Engineering**. My journey has been shaped by diverse experiences, including a memorable stint as an [intern at NASA Headquarters](https://www.nasa.gov/stem-content/x-59-3d-printing/) and over two years as an undergraduate researcher at the [Additive Manufacturing and Metamaterials Lab (AMML)](https://www.raynexzheng.com/).  
 
-Outside of work, you will find me rock climbing and designing 3D printers!
+Beyond school and work, I’m an avid rock climber and an enthusiast for designing and building 3D printers. I find joy in creating systems that blend creativity, precision, and innovation.  
 
 <div style="display: flex; justify-content: center; gap: 20px;">
   <img src="assets/MoXY_cad.jpg" alt="3D Printer CAD" style="height: 400px; width: auto;">
