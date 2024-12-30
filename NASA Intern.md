@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Nasa Intern
+title: NASA Intern
 parent: Work Experience
 nav_order: 2
 ---
@@ -29,12 +29,14 @@ During my internship at NASA Headquarters, I worked on enhancing the CAD model o
   <img src="assets/X-59_3dp.jpg" alt="3D Printed Models of X-59 Aircraft" style="height: 400px; width: auto;">
 </div>
 
-In addition to 3D printing, I designed a paper model of the X-59 aircraft that could be used in STEM education to inspire students and provide a hands-on learning experience. This project emphasized the importance of bridging engineering and education to make aerospace concepts accessible to younger audiences.
+In addition to 3D printing, I designed a paper model of the X-59 aircraft that could be used in STEM education to inspire students and provide a hands-on learning experience. This project emphasized the importance of bridging engineering and education to make aerospace concepts accessible to younger audiences. It can be found [here](https://www.nasa.gov/wp-content/uploads/2022/01/x-59-paper-desktop-model_1.pdf?emrc=b1a26b).
 
 **Paper Model of the X-59 Aircraft**
 <div style="display: flex; justify-content: center;">
   <img src="assets/X-59_paper_demo.jpg" alt="Paper Model of X-59 Aircraft" style="height: 400px; width: auto;">
 </div>
+
+---
 
 ## NASA Volunteering  
 On top of my internship responsibilities, I volunteered to take on an additional engineering project with NASA’s Johnson Space Center.
@@ -45,11 +47,4 @@ To optimize the retrieval system, I developed a **Python script** to calculate t
 
 This project showcased my ability to integrate mechanical design, research, and computational tools to solve complex engineering challenges in space exploration.
 
-
-
-
-
-
-
-
-
+---

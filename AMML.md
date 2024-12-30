@@ -45,6 +45,8 @@ I designed and fabicated a DLP printer that incorporated a new cleaning method b
   <img src="assets/rotary_printer.jpg" alt="Render of Rotary Printer" style="height: 400px; width: auto;">
 </div>
 
+---
+
 ### P$\mu$SL Lattices
 I enhanced the performance of our [Projection micro-stereolithography](https://pubs.aip.org/aip/rsi/article-abstract/83/12/125001/357459/Design-and-optimization-of-a-light-emitting-diode?redirectedFrom=fulltext) (P$/mu$SL) 3D printer, which prints microlattices with a resolution of 1.3 $\mu$m/pixel. Oxygen inhibition of photopolymerization was a substantial issue in printing performance. I was tasked with mapping the oxygen levels across the print area, and optimizing to reduce the $O_2$ gradient across it. The new vat design decreased the variation of oxygen concentration by 2x by improving the flow of $N_2$, allowing for repeatable printing conditions. An oxygen sensor was also implemented in LabVIEW for in-situ monitoring.
 
@@ -58,6 +60,7 @@ I developed a **MATLAB** script to detect and adjust slicing outliers, ensuring 
   <img src="assets/mesh_fix.jpg" alt="Image showing the change of slices to optimize strut thickness" style="height: 400px; width: auto;">
 </div>
 
+---
 
 ### Piezoelectric Actuator
 I also designed piezoelectric bimorphs for actuating. The final model was a 2-axis bimorph structure that resulted in 100 microns of displacement in a 3x3x1cm package. To increase the amplitude, another stage of amplification was designed and simulated in **Solidworks**, as shown below. I fabricated printed piezoelectric composites in several lattice configurations made for high density actuator systems.

@@ -27,6 +27,8 @@ To ensure a safe recovery system, I also developed a parachute ejection mechanis
   <img src="assets/piston_mechanism.jpg" alt="Image of the Piston Mechanism" style="height: 400px; width: auto;">
 </div>
 
+---
+
 ### Electrical Build
 I designed a custom PCB based on a Teensy microcontroller to handle onboard data acquisition and control. The PCB incorporated a voltage regulator, MOSFETs to trigger the rocket motor, and connections for various sensors. These included a BMP280 barometric pressure sensor and a BNO-055 inertial measurement unit (IMU). Additionally, the board provided outputs for three servos, status LEDs, and an SD card for datalogging.
 
@@ -35,6 +37,8 @@ I designed a custom PCB based on a Teensy microcontroller to handle onboard data
 </div>
 
 The pressure sensor determined altitude and triggered the parachute ejection, while the IMU captured acceleration and orientation data to support trajectory control.
+
+---
 
 ### Software and Simulation
 While I did not complete the control algorithm, this project significantly boosted my confidence in working with sensors and interpreting datasheets. I successfully interfaced all sensors, controlled servos and MOSFET outputs, and logged data to an SD card.
@@ -60,3 +64,5 @@ To model the rocket’s motion, I developed a Python-based 2D simulation. Using 
 - The TVC system, while functional, exhibited significant mechanical slop, compromising movement accuracy. Addressing this would require either improved hardware tolerances or a robust control algorithm.
 - Tackling unfamiliar, complex projects is highly rewarding but requires balancing new challenges with existing skills to maintain progress and motivation.\
 - This project reinforced my passion for designing and building tangible, real-world systems with practical applications.
+
+---
