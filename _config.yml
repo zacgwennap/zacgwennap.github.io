@@ -4,11 +4,11 @@ description: Explore my personal portfolio showcasing projects, skills, and prof
 remote_theme: just-the-docs/just-the-docs
 
 # Site URL
-url: https://ZacCac.github.io
+url: https://zacgwennap.github.io
 
 # Auxiliary links (if needed)
 aux_links:
-  GitHub: https://github.com/ZacCac
+  GitHub: https://github.com/zacgwennap
   LinkedIn: https://www.linkedin.com/in/zachary-gwennap/
 
 markdown: kramdown
