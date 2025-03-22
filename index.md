@@ -27,9 +27,6 @@ Beyond school and work, I’m an avid rock climber and an enthusiast for designi
 ---
 
 ## Quick Links
-- **[GitHub]({{ site.aux_links.GitHub}})**  
-- **[LinkedIn]({{ site.aux_links.LinkedIn }})**  
-- **[Resume (PDF)](/assets/Gwennap_Zac_Resume.pdf)**  
-
-
-[Download My Resume](/assets/Gwennap_Zac_Resume.pdf){: .btn .btn-primary }
+- [**GitHub**]({{site.aux_links.GitHub }}){: .btn .btn-primary }
+- [**LinkedIn**]({{site.aux_links.LinkedIn }}){: .btn .btn-primary }
+- [**Resume (PDF)**](/assets/Gwennap_Zac_Resume.pdf){: .btn .btn-primary }
