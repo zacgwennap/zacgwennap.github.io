@@ -6,7 +6,7 @@ description: "Welcome to my personal portfolio website. Explore my projects, ski
 ---
 
 ## About Me
-Hello! My name is Zac Gwennap, and I’m a passionate **Mechanical Engineer** with a deep interest in additive manufacturing, design, and robotics.  
+Hello! My name is Zac Gwennap, and I’m a passionate **Mechanical Engineer** with a deep interest in additive manufacturing, mechanical design, and robotics.  
 
 <div style="text-align: center;">
   <img src="assets/headshot.JPG" alt="Headshot" width="400">
@@ -29,4 +29,6 @@ Beyond school and work, I’m an avid rock climber and an enthusiast for designi
 ## Quick Links
 - **[GitHub]({{ site.aux_links.GitHub}})**  
 - **[LinkedIn]({{ site.aux_links.LinkedIn }})**  
-- **[Resume (PDF)](resume.pdf)**  
+- **[Resume (PDF)](/assets/Gwennap_Zac_Resume.pdf)**  
+
+[Download My Resume](/assets/Gwennap_Zac_Resume.pdf){: .btn .btn-primary }

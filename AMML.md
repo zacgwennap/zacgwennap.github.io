@@ -2,7 +2,7 @@
 layout: default
 title: Undergraduate Researcher - AMML
 parent: Work Experience
-nav_order: 1
+nav_order: 2
 ---
 
 <script type="text/javascript" async

@@ -15,7 +15,6 @@ nav_order: 1
 
 MoXY is a custom FDM Cross Gantry printer fully designed and developed by me.
 
-**Custom Electronics Box**
 <div style="display: flex; justify-content: center; gap: 20px;">
   <img src="assets/MoXY_cad.jpg" alt="CAD of the printer" style="height: 400px; width: auto;">
   <img src="assets/MoXY.jpg" alt="Current build progress of the printer" style="height: 400px; width: auto;">
