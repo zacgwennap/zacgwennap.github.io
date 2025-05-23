@@ -22,11 +22,11 @@ nav_order: 1
 ---
 
 ## Overview  
-At Fierro Fab, my primary role is to utilize 3D scanning to aid in the restoration of classic 1960s Lincoln automobiles. This process includes setting up parts for scanning, repairing and cleaning mesh data, and converting scans into CAD models for fabrication and modification.
+At Fierro Fab, my primary role is to utilize 3D scanning to aid in the restoration of classic 1960s Lincoln automobiles. This process includes setting up parts for scanning, repairing and cleaning mesh data, and converting scans into CAD models for fabrication and modification. Some of the scans are used to create sheet metal stamps and jigs, which are used to recreate damaged parts of the car.
 
 In addition to scanning and modeling, I am redesigning the tail lights to incorporate a concealed fuel-filler compartment. This involves developing a mechanism that allows the tail light to pivot, providing access to the fuel cap. Currently, the tail light has been remodeled, and prototypes of the lifting mechanism are in development.
 
-**SolidWorks Model of the Rotary 3D Printer**
+**CAD Model of the Tail Light**
 <div style="display: flex; justify-content: center;">
   <img src="assets/taillight.jpg" alt="CAD model of the tail light" style="height: 400px; width: auto;">
 </div>
