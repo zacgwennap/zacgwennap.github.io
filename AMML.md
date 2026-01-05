@@ -60,6 +60,8 @@ I developed a **MATLAB** script to detect and adjust slicing outliers, ensuring 
   <img src="assets/mesh_fix.jpg" alt="Image showing the change of slices to optimize strut thickness" style="height: 400px; width: auto;">
 </div>
 
+I was later added as an author on a published paper in the Additive Manufacturing Journal. The paper can be accessed [here](https://www.sciencedirect.com/science/article/abs/pii/S2214860425000818).
+
 ---
 
 ### Piezoelectric Actuator
@@ -77,4 +79,4 @@ I also designed piezoelectric bimorphs for actuating. The final model was a 2-ax
 ## Skills & Tools  
 - **Software Proficiency:** MATLAB, LabVIEW, SolidWorks, Arduino, Python.  
 - **Lab Equipment:** Tensile testing machines, centrifuges, 3D printers, ovens, and precision measurement tools.  
-- **Materials Expertise:** Worked with hazardous materials, ensuring safety and compliance.  
+- **Materials Expertise:** Worked in both a dry and wet lab. Properly handled chemicals and delicate parts. Used proper PPE and fume hoods. Worked around hazardous materials.
