@@ -11,24 +11,30 @@ nav_order: 3
 
 ---
 
-## Key Contributions
-During my internship at NASA Headquarters, I worked on enhancing the CAD model of the X-59 aircraft to be suitable for 3D printing. My primary challenge was to thicken thin regions of the model that were problematic for 3D printing, all while ensuring that these modifications preserved the aircraft's original design aesthetics. I utilized **surface-based modeling** techniques in **SolidWorks** to meet these requirements. I then 3D printed prototypes, incorporating feedback from the NASA model shop to refine the designs. More info on the design can be found on [my page of the NASA website](https://www.nasa.gov/stem-content/x-59-3d-printing/).
+## X-59 3D Printing — NASA Headquarters
 
-**3D Printed Models of the X-59 Aircraft**
-{% include image-single.html src="assets/X-59_3dp.jpg" alt="3D Printed Models of X-59 Aircraft" %}
+The X-59 QueSST is NASA's experimental supersonic aircraft designed to reduce sonic booms to a quiet thump. During my internship at NASA Headquarters, I was assigned to prepare the X-59 CAD model for 3D printed display production.
 
-In addition to 3D printing, I designed a paper model of the X-59 aircraft that could be used in STEM education to inspire students and provide a hands-on learning experience. This project emphasized the importance of bridging engineering and education to make aerospace concepts accessible to younger audiences. It can be found [here](https://www.nasa.gov/wp-content/uploads/2022/01/x-59-paper-desktop-model_1.pdf?emrc=b1a26b).
+The primary challenge was that the original geometry contained regions too thin to survive the 3D printing process — fin edges, canards, and fuselage transitions required thickening without visually altering the aircraft's distinctive silhouette. This was accomplished using **surface-based modeling** techniques in **SolidWorks**, which allowed localized geometry modifications while preserving the overall aerodynamic form. Prototypes were printed iteratively and refined based on feedback from the NASA model shop.
 
-**Paper Model of the X-59 Aircraft**
-{% include image-single.html src="assets/X-59_paper_demo.jpg" alt="Paper Model of X-59 Aircraft" %}
+{% include image-single.html src="assets/X-59_3dp.jpg" alt="3D Printed Models of the X-59 Aircraft" %}
+
+The final models are documented on [my page of the NASA website](https://www.nasa.gov/stem-content/x-59-3d-printing/).
 
 ---
 
-## NASA Volunteering
-On top of my internship responsibilities, I volunteered to take on an additional engineering project with NASA's Johnson Space Center.
+## X-59 Paper Model — STEM Education
 
-As a volunteer, I contributed to the development of a retrieval system for incapacitated astronauts in lunar missions. My main task was to design a prototype vehicle in **SolidWorks** that could safely transport an incapacitated astronaut back to a lunar base. This involved conducting extensive research on previous lunar missions to understand the challenges posed by the lunar surface, such as terrain obstacles and design constraints.
+In parallel with the 3D printing work, I designed a paper cut-and-fold model of the X-59 for use in STEM outreach. The goal was to make the aircraft accessible to students without requiring any specialized equipment — a tangible, hands-on artifact that communicates the design at low cost and high volume. The model is available for public download [here](https://www.nasa.gov/wp-content/uploads/2022/01/x-59-paper-desktop-model_1.pdf?emrc=b1a26b).
 
-To optimize the retrieval system, I developed a **Python script** to calculate the energy expenditure required to transport an astronaut based on key parameters, including weight, terrain type, and vehicle efficiency. These calculations informed my design choices, ensuring the prototype could effectively operate under real-world lunar conditions.
+{% include image-single.html src="assets/X-59_paper_demo.jpg" alt="Paper Model of the X-59 Aircraft" %}
 
-This project showcased my ability to integrate mechanical design, research, and computational tools to solve complex engineering challenges in space exploration.
+---
+
+## Astronaut Retrieval System — Johnson Space Center
+
+Outside of the primary internship scope, I volunteered for an additional engineering project with NASA's Johnson Space Center focused on lunar mission contingency planning.
+
+The project involved designing a prototype vehicle capable of safely transporting an incapacitated astronaut across the lunar surface back to a habitat. Designing for the lunar environment required researching terrain characteristics from prior missions and working within significant constraints: low gravity, regolith surface variability, and the physical limitations of a suited crew member operating the vehicle.
+
+To inform the design, a **Python script** was developed to calculate energy expenditure as a function of payload weight, terrain type, and vehicle mechanical efficiency. These calculations directly shaped the drivetrain and structural decisions in the **SolidWorks** prototype model, ensuring the design could operate within realistic energy budgets under lunar conditions.

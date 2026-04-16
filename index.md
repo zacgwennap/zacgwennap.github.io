@@ -6,23 +6,23 @@ description: "Welcome to my personal portfolio website. Explore my projects, ski
 ---
 
 ## About Me
-Hello! My name is Zac Gwennap, and I’m a passionate **Mechanical Engineer** with a deep interest in additive manufacturing, mechanical design, and robotics.  
+Hello! My name is Zac Gwennap, and I'm a Mechanical Engineer with a background in additive manufacturing, mechanical design, and hands-on fabrication.
 
-<div style="text-align: center;">
-  <img src="assets/headshot.JPG" alt="Headshot" width="400">
-</div>
+{% include image-single.html src="assets/headshot.JPG" alt="Headshot" %}
 
 ---
 
 ## Who I Am
-I graduated from the **University of California, Berkeley** in December 2024 with a degree in **Mechanical Engineering** and a GPA of 3.65. My time as a student has been shaped by some amazing experiences, including working as an [intern at NASA Headquarters](https://www.nasa.gov/stem-content/x-59-3d-printing/) and two years as an undergraduate researcher at the [Additive Manufacturing and Metamaterials Lab (AMML)](https://www.raynexzheng.com/). I currently work at Fierro Fab, designing custom car parts as the Lead Mechanical Engineer.
 
-Outside of work, I’m an avid rock climber, I love camping and backpacking, and I am an enthusiast for designing and building 3D printers.
+During COVID, my mom got me a 3D printer — and it consumed me. What started as a hobby quickly became the foundation of my engineering career. It taught me CAD, programming, and how to iterate fast. More importantly, it helped me realize I wanted to study mechanical engineering when I wasn't sure what direction to take. The skills I built tinkering at home were the same ones I later honed in research labs and used daily in my current job.
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="assets/MoXY_cad.jpg" alt="3D Printer CAD" style="height: 400px; width: auto;">
-  <img src="assets/climbing.png" alt="Rock Climbing at the Beach" style="height: 400px; width: auto;">
-</div>
+I graduated from the **University of California, Berkeley** in December 2024 with a degree in **Mechanical Engineering** and a GPA of 3.65. Along the way I worked as an [intern at NASA Headquarters](https://www.nasa.gov/stem-content/x-59-3d-printing/) and spent two years as an undergraduate researcher at the [Additive Manufacturing and Metamaterials Lab (AMML)](https://www.raynexzheng.com/). I currently work at Fierro Fab as the Lead Mechanical Engineer, designing custom parts for high-end resto-mod cars.
+
+I tend to gravitate toward projects that require multidisciplinary thinking — mechanical design, electronics, software, fabrication — because I like learning across boundaries. I often spot something I know could be done better and find myself building a solution, even if that problem has been solved before. The result is usually something tangible I can actually use, which is the part I find most satisfying.
+
+I'm a maker at heart, and I'm working on becoming a more rigorous engineer — putting more deliberate analysis behind the things I build. That balance shows up across the projects on this site.
+
+{% include image-pair.html left="assets/MoXY_cad.jpg" alt_left="MoXY 3D Printer CAD" right="assets/climbing.png" alt_right="Rock Climbing at the Beach" %}
 
 ---
 

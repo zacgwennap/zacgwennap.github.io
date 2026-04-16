@@ -12,46 +12,62 @@ nav_order: 2
 ---
 
 ## Overview  
-As an undergraduate researcher, I focused on advancing **multimaterial Digital Light Processing (DLP) 3D printing** and the development of **piezoelectric actuators**. My work involved designing 3D printers and their software, manufacturing small scale piezoelectric actuators, and optimizing printing parameters of novel printing techniques.
+
+As an undergraduate researcher at the AMML, I contributed to two primary research areas: **multimaterial Digital Light Processing (DLP) 3D printing** and **piezoelectric actuator development**. The work spanned hardware design, embedded systems, wet lab fabrication, and computational analysis, and resulted in a co-authorship on a peer-reviewed journal article.
 
 ---
 
-## Key Contributions  
+## Multimaterial DLP Printing
 
-### Multimaterial DLP Printing
-I designed and fabricated a DLP printer that incorporated a new cleaning method between resin swaps. I also configured the software for material swapping and cleaning through **Arduino** and **LabVIEW**. Produced successful multimaterial prints with minimized resin cross-contamination.
+### Printer Design
 
-**Example Prints:**
-{% include image-pair.html left="assets/multicolor_lattice.jpg" alt_left="Dual Color Lattice" right="assets/multicolor_lattice_2.jpg" alt_right="Dual Color on same Layer" %}
+DLP 3D printing cures photopolymer resin layer by layer using projected UV light. Producing true multimaterial parts requires swapping resins mid-print without cross-contaminating adjacent vats — a constraint that necessitated a purpose-built hardware platform.
 
-**In-situ Electroless Plating:** Contributed to a project incorporating automated electroless plating techniques, though it was not completed before my graduation. The printer I designed incorporated a 3D printed rotary stage for cycling between vats.
+I designed and fabricated a DLP printer centered on a motorized rotary stage that indexes between multiple resin vats. The stage automates vat positioning, material swapping, and inter-vat cleaning sequences without interrupting the print cycle. Machine control was implemented in **Arduino** and **LabVIEW**.
 
-**SolidWorks Model of the Rotary 3D Printer**
-{% include image-single.html src="assets/rotary_printer.jpg" alt="Render of Rotary Printer" %}
+{% include image-pair.html left="assets/rotary_printer.jpg" alt_left="SolidWorks Model of the Rotary Printer" right="assets/rotary_cross_section.jpg" alt_right="Cross Section of Rotary Stage" %}
 
----
+The system produced successful multimaterial prints with minimized resin cross-contamination between material swaps.
 
-### P$\mu$SL Lattices
-I enhanced the performance of our [Projection micro-stereolithography](https://pubs.aip.org/aip/rsi/article-abstract/83/12/125001/357459/Design-and-optimization-of-a-light-emitting-diode?redirectedFrom=fulltext) (P$/mu$SL) 3D printer, which prints microlattices with a resolution of 1.3 $\mu$m/pixel. Oxygen inhibition of photopolymerization was a substantial issue in printing performance. I was tasked with mapping the oxygen levels across the print area, and optimizing to reduce the $O_2$ gradient across it. The new vat design decreased the variation of oxygen concentration by 2x by improving the flow of $N_2$, allowing for repeatable printing conditions. An oxygen sensor was also implemented in LabVIEW for in-situ monitoring.
+{% include image-pair.html left="assets/multicolor_lattice.jpg" alt_left="Dual-Color Lattice Print" right="assets/multicolor_lattice_2.jpg" alt_right="Multimaterial Print on a Single Layer" %}
 
-{% include image-single.html src="assets/oxygen_vats.jpg" alt="Image showing the new vats" %}
+### In-Situ Electroless Plating
 
-I developed a **MATLAB** script to detect and adjust slicing outliers, ensuring consistent strut thickness of ~35$\mu$m in printed microlattices.
+A concurrent project explored integrating automated electroless metal plating directly into the print cycle, enabling conductive features to be deposited onto printed geometry without removing the part from the printer. I contributed to the hardware integration of this process into the rotary printer platform prior to graduation.
 
-{% include image-single.html src="assets/mesh_fix.jpg" alt="Image showing the change of slices to optimize strut thickness" %}
-
-I was later added as an author on a published paper in the Additive Manufacturing Journal. The paper can be accessed [here](https://www.sciencedirect.com/science/article/abs/pii/S2214860425000818).
+{% include image-single.html src="assets/electroless_plated_microlattice.jpg" alt="Electroless Plated Microlattice" %}
 
 ---
 
-### Piezoelectric Actuator
-I also designed piezoelectric bimorphs for actuating. The final model was a 2-axis bimorph structure that resulted in 100 microns of displacement in a 3x3x1cm package. To increase the amplitude, another stage of amplification was designed and simulated in **Solidworks**, as shown below. I fabricated printed piezoelectric composites in several lattice configurations made for high density actuator systems.
+## P$\mu$SL Microlattice Printing
+
+[Projection micro-stereolithography](https://pubs.aip.org/aip/rsi/article-abstract/83/12/125001/357459/Design-and-optimization-of-a-light-emitting-diode?redirectedFrom=fulltext) (P$\mu$SL) is a high-resolution DLP process capable of printing microlattice structures at 1.3 $\mu$m/pixel feature size. A persistent challenge in this process is oxygen inhibition of photopolymerization — dissolved oxygen near the resin surface suppresses curing and creates spatial variation in print quality.
+
+I was tasked with characterizing the oxygen concentration distribution across the print area and redesigning the resin vat to reduce the spatial gradient. Improved nitrogen flow geometry in the redesigned vat reduced the variation in oxygen concentration by a factor of 2, establishing more repeatable printing conditions across the build area.
+
+{% include image-pair.html left="assets/vat_pdms.jpg" alt_left="Redesigned PDMS Vat" right="assets/oxygen_vats.jpg" alt_right="Vat Comparison" %}
+
+An oxygen sensor was integrated into the LabVIEW control interface for continuous in-situ monitoring throughout the print cycle. To address slicing inconsistencies that produced strut thickness variation in printed lattices, a **MATLAB** script was developed to detect and correct outlier slice geometries, achieving a target strut thickness of approximately 35 $\mu$m.
+
+{% include image-single.html src="assets/mesh_fix.jpg" alt="MATLAB Slice Correction for Consistent Strut Thickness" %}
+
+This work contributed to a paper published in the *Additive Manufacturing Journal*, accessible [here](https://www.sciencedirect.com/science/article/abs/pii/S2214860425000818).
+
+---
+
+## Piezoelectric Actuator Development
+
+Piezoelectric bimorphs convert electrical signals directly into mechanical displacement, making them well-suited for high-precision, small-scale actuation. I designed and fabricated a 2-axis bimorph structure achieving 100 $\mu$m of displacement within a 3×3×1 cm package.
+
+To increase usable stroke, a mechanical amplification stage was designed and simulated in **SolidWorks**. The compliant mechanism multiplies output displacement at the cost of force — a standard trade-off in precision actuator design — and was validated through simulation before fabrication.
 
 {% include video-single.html src="assets/amplifier.mp4" %}
+
+Printed piezoelectric composites were also fabricated in multiple lattice configurations, exploring geometric strategies for increasing actuator density in array-based systems.
 
 ---
 
 ## Skills & Tools  
-- **Software Proficiency:** MATLAB, LabVIEW, SolidWorks, Arduino, Python.  
-- **Lab Equipment:** Tensile testing machines, centrifuges, 3D printers, ovens, and precision measurement tools.  
-- **Materials Expertise:** Worked in both a dry and wet lab. Properly handled chemicals and delicate parts. Used proper PPE and fume hoods. Worked around hazardous materials.
+- **Software:** MATLAB, LabVIEW, SolidWorks, Arduino, Python  
+- **Lab Equipment:** Tensile testing machines, centrifuges, resin 3D printers, precision ovens, optical measurement tools  
+- **Materials Handling:** Wet and dry lab experience; handling of photopolymers, metal precursor solutions, and piezoelectric composites with appropriate PPE and fume hood protocols
