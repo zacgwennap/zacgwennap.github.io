@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Lead Mechanical Engineer - Fierro Fab
+title: Mechanical Engineer - Fierro Fab
 parent: Work Experience
 nav_order: 1
 ---
 
-# Lead Mechanical Engineer
+# Mechanical Engineer
 **Fierro Fab**  
 **Long Beach, CA** | *Mar 2025 – Present*
 
@@ -13,7 +13,7 @@ nav_order: 1
 
 ## Overview
 
-Fierro Fab specializes in resto-mod builds — classic cars restored and upgraded with modern engineering. As Lead Mechanical Engineer, I manage projects from initial concept through fabrication and delivery, spanning mechanical design, structural analysis, electronics, and vendor coordination. The primary build is a **1965 Lincoln Continental Convertible** targeting over 1,000 horsepower.
+Fierro Fab specializes in resto-mod builds — classic cars restored and upgraded with modern engineering. As the mechanical engineer, I manage projects from initial concept through fabrication and delivery, spanning mechanical design, structural analysis, electronics, and vendor coordination. The primary build is a **1965 Lincoln Continental Convertible** targeting around 1,000 horsepower.
 
 ---
 
@@ -29,7 +29,7 @@ Custom mounting fixtures were developed from 3D scans of the chassis, locking th
 
 ## Chassis Straightening Fixtures
 
-The Lincoln's chassis sustained warping from prior welding, leaving several sections out of position by significant margins. Correcting this required a dedicated set of clamping fixtures to induce the necessary deflection back into specification.
+The Lincoln's chassis sustained warping from prior welding, leaving several sections out of position by up to a half inch. Correcting this required a dedicated set of clamping fixtures to induce the necessary deflection back into specification.
 
 The required correction forces were estimated by modeling the chassis as a cantilever beam, providing a conservative bound on the loads involved. A subsequent bolt slip analysis confirmed that the fasteners would remain engaged under the shear forces generated during straightening.
 
@@ -43,7 +43,7 @@ The fixtures were designed for laser cutting, welding, and powder coating. Post-
 
 The Lincoln's original cast door handles are being replaced with a fully custom design that preserves the original aesthetic while incorporating a modern latching mechanism. A flush button triggers a microswitch to release the door electronically, with internal components designed around the precise contour of the door panel.
 
-The assembly consists of four machined components — handle front, handle back, microswitch mount, and button cover — along with custom elastomeric gaskets for weathersealing. All parts are intended for final production in CNC-machined aluminum.
+The assembly consists of four machined components — handle front, handle back, microswitch mount, and button cover — along with custom gaskets for weathersealing. All parts are intended for final production in aluminum and plated in chrome.
 
 {% include image-pair.html left="assets/handle_back.PNG" alt_left="Handle Back Component" right="assets/3d_printed_handle.jpg" alt_right="Handle Assembly" %}
 
@@ -83,7 +83,7 @@ The Lincoln's side mirrors are being redesigned around the existing mirror inter
 
 ## Engine Bay Layout
 
-The engine bay is being digitally mocked up by scanning and aligning the engine, transmission, and engine mounts within the chassis model. This assembly establishes the spatial constraints for all subsequent component designs — custom exhaust headers, supercharger intake routing, and ancillary structure — and will be finalized once the chassis straightening and body positioning are complete.
+The engine bay is being digitally mocked up by scanning and aligning the engine, transmission, and engine mounts within the chassis model. This assembly establishes the spatial constraints for all subsequent component designs — custom exhaust headers, supercharger intake routing, and auxiillary structure — and will be finalized once the chassis straightening and body positioning are complete.
 
 ---
 
