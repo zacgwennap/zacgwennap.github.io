@@ -1,0 +1,53 @@
+// -----------------------------------------------
+// Responsive image and video gallery
+// -----------------------------------------------
+//
+// Usage in markdown:
+//   {% include image-pair.html ... %}   → two items side by side
+//   {% include image-single.html ... %} → one centered item
+//   {% include video-single.html ... %} → one centered video
+//
+// On desktop: items sit side by side at 350px tall (singles at 450px).
+// On mobile:  items stack vertically and fill the full content width.
+// -----------------------------------------------
+
+.img-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+// Pair images — shown side by side on desktop
+.gallery-img {
+  height: 350px;
+  width: auto;
+  max-width: 100%;
+}
+
+// Single centered image or video — given more vertical space
+.gallery-img--single {
+  height: 450px;
+}
+
+// Width-constrained item (e.g. a wide poster or chart)
+.gallery-img--wide {
+  width: 700px;
+  max-width: 100%;
+  height: auto;
+}
+
+// Mobile: stack everything and fill the content width
+@media (max-width: 768px) {
+  .gallery-img,
+  .gallery-img--single {
+    width: 100%;
+    height: auto !important; // overrides any inline height set via include parameter
+  }
+
+  .gallery-img--wide {
+    width: 100%;
+  }
+}

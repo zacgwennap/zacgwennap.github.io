@@ -1,7 +1,7 @@
 # Site metadata
 title: Zac Gwennap Portfolio
 description: Explore my personal portfolio showcasing projects, skills, and professional experience. Built with Just the Docs and GitHub Pages.
-remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
 
 # Site URL
 url: https://zacgwennap.github.io
@@ -15,11 +15,3 @@ markdown: kramdown
 kramdown:
   math_engine: mathjax
 
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      includes:
-        - mathjax
