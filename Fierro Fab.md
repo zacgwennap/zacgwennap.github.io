@@ -21,7 +21,7 @@ Fierro Fab specializes in resto-mod builds — classic cars restored and upgrade
 
 Accurate chassis positioning is foundational to all downstream work on the Lincoln. I designed a fixture table in **Autodesk Fusion** using a combination of square tubing and laser-cut steel plates, then coordinated all component procurement, designed squaring tooling to ensure the table remained true during assembly, and assisted with fabrication.
 
-{% include image-pair.html left="assets/chassis_on_table.PNG" alt_left="Chassis Scan Aligned to Fixture Table CAD" right="assets/fixture_table.jpg" alt_right="Completed Fixture Table" %}
+{% include image-pair.html left="assets/chassis_cad_render.PNG" alt_left="Chassis Scan Aligned to Fixture Table CAD" right="assets/chassis_fixture_table.jpg" alt_right="Chassis on Fixture Table" %}
 
 Custom mounting fixtures were developed from 3D scans of the chassis, locking the body to the table at a known location in global coordinates. A scanner tracking field — a saved network of reference targets in the scanning software — allows individual sections of the car to be scanned independently and automatically registered to the existing coordinate system. This eliminates the need to rescan the entire chassis for each work session, significantly improving workflow efficiency.
 
@@ -35,7 +35,9 @@ The required correction forces were estimated by modeling the chassis as a canti
 
 {% include image-single.html src="assets/welded_chassis_fixture.jpg" alt="Welded Chassis Straightening Fixture" %}
 
-The fixtures were designed for laser cutting, welding, and powder coating. Post-weld inspection of the first fixtures confirmed perpendicularity of **90° ± 0.1°**, demonstrating that proper fixturing during welding prevented measurable distortion. The completed fixtures are currently awaiting final machining operations before installation on the table.
+The fixtures were designed for laser cutting, welding, and powder coating. Post-weld inspection of the first fixtures confirmed perpendicularity of **90° ± 0.1°**, demonstrating that proper fixturing during welding prevented measurable distortion. The completed and powder-coated fixtures are shown on the fixture table below, ready for installation.
+
+{% include image-single.html src="assets/side_fixtures.jpg" alt="Completed Chassis Straightening Fixtures" %}
 
 ---
 
@@ -45,11 +47,23 @@ The Lincoln's original cast door handles are being replaced with a fully custom 
 
 The assembly consists of four machined components — handle front, handle back, microswitch mount, and button cover — along with custom gaskets for weathersealing. All parts are intended for final production in aluminum and plated in chrome.
 
-{% include image-pair.html left="assets/handle_back.PNG" alt_left="Handle Back Component" right="assets/3d_printed_handle.jpg" alt_right="Handle Assembly" %}
+{% include image-single.html src="assets/handle_front.png" alt="Custom Door Handle CAD Render" %}
 
 3D printed prototypes of all components were completed and test-fit on the door to validate fit and clearances. Relative to a prior design concept, the geometry was substantially revised to reduce machining complexity, cutting estimated production cost in half while maintaining the original design intent.
 
-{% include image-pair.html left="assets/handle_full_front.PNG" alt_left="3D Printed Handle Prototype" right="assets/handle_front.png" alt_right="Handle Prototype Fitted on Door" %}
+{% include image-single.html src="assets/3d_printed_handle.jpg" alt="3D Printed Handle Prototype Fitted on Door" %}
+
+---
+
+## Headlights
+
+The Lincoln's headlights are being fully redesigned. Off-the-shelf solutions were either too modern-looking or carried obnoxious branding, so a custom LED module and housing are being developed to match the car's era.
+
+Each headlight assembly is constrained using a **Kelvin kinematic mount** — a three-point contact arrangement of cone, groove, and flat that fully constrains all six degrees of freedom without overconstraint. The assembly is spring-preloaded against the mount points, and independent adjusters allow tilt correction in both the vertical and horizontal axes. A 3D-printed mockup has been completed to validate packaging and adjustment range.
+
+The headlights are planned to integrate into a **custom billet grille** that replaces the full front fascia — a single cohesive machined assembly unifying the lighting and grille. Work is ongoing.
+
+{% include image-pair.html left="assets/headlight_full.png" alt_left="Headlight Housing CAD" right="assets/headlight_internals.jpg" alt_right="Headlight Kinematic Mount Assembly" %}
 
 ---
 
@@ -59,7 +73,11 @@ Transmitting over 1,000 horsepower to the road demands a substantial increase in
 
 To validate fitment before any metal is cut, the existing suspension geometry was reverse-engineered from 3D scans. The resulting model allows full simulation of suspension travel, enabling collision detection between moving components and body panels at all ride heights. The same model serves as a visual reference for customer reviews.
 
-{% include image-pair.html left="assets/suspension_demo.gif" alt_left="Suspension Travel Simulation" right="assets/wheel_old.PNG" alt_right="Updated Wheel Design Render" %}
+{% include image-pair.html left="assets/suspension_demo.gif" alt_left="Suspension Travel Simulation" right="assets/front_suspension.jpg" alt_right="Rear Suspension Assembly CAD" %}
+
+To validate the wheel design before committing to machining, a full-size prototype was 3D-printed and mounted on an actual tire — a **325/35ZR21 Continental SportContact 7**. The wheel features a flush whitewall: the white band sits level with the face of the tire, replicating the classic whitewall aesthetic while retaining the performance profile of a thin-sidewall tire. The prototype is currently out for machining.
+
+{% include image-single.html src="assets/final_3dp_wheel.jpg" alt="3D Printed Wheel Prototype with Flush Whitewall" %}
 
 ---
 
@@ -70,6 +88,16 @@ The rear taillight is being redesigned to conceal a fuel-filler compartment behi
 {% include image-single.html src="assets/taillight.jpg" alt="Taillight CAD Model" %}
 
 The actuation system uses a **cam-slider linkage** driven by a gas strut, which rotates a linkage arm to produce the controlled pivot. A button triggers the primary release; a manual override provides secondary access independent of the electronic system. The current prototype combines 3D printed iterative components, sheet metal cam geometry, and a temporary CNC-machined taillight arm. Development is paused pending chassis alignment and body panel positioning, which will define the final mounting envelope.
+
+---
+
+## Tower Measurement System
+
+Accurate bilateral measurement is essential for verifying chassis symmetry throughout the build. A pair of **magnesium measurement towers** mount on either side of the fixture table, with a large crossbeam spanning between them. The setup enables repeatable measurements from both sides simultaneously, symmetry verification, and reference checks at any stage of the build.
+
+The towers interface with the fixture table via **custom linear rail sliders** — machined aluminum plates riding on two parallel linear rails. The table grid is spaced every two inches; the sliders provide fine positioning beyond those fixed increments. An integrated ruler and pointer reads the exact lateral position, and a brake locks the slider once the target is set. Each slider is shimmed to its specific tower to ensure perpendicularity to the table surface. The tower legs slot directly into the table holes for precise repeatable location and to prevent tipping during use.
+
+{% include image-pair.html left="assets/tower_sliders_demo.gif" alt_left="Tower Sliders on Linear Rails" right="assets/tower_sliders.jpg" alt_right="Tower Slider Assembly" %}
 
 ---
 
