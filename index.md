@@ -5,6 +5,12 @@ nav_order: 1
 description: "Welcome to my personal portfolio website. Explore my projects, skills, and experience."
 ---
 
+**Short on time?** For the quickest sense of who I am and what I do, skip straight to my current work as a Mechanical Engineer at Fierro Fab.
+
+[Take me to the Fierro Fab page →]({% link Fierro Fab.md %}){: .btn .btn-primary }
+
+---
+
 ## About Me
 Hello! My name is Zac Gwennap, and I'm a Mechanical Engineer with a background in additive manufacturing, mechanical design, and hands-on fabrication.
 
