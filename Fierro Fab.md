@@ -5,16 +5,6 @@ parent: Work Experience
 nav_order: 1
 ---
 
-<script type="text/javascript" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
-
-<script>
-  MathJax = {
-    tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
-  };
-</script>
-
 # Mechanical Engineer
 **Fierro Fab**  
 **Long Beach, CA** | *Mar 2025 – Present*
@@ -31,35 +21,23 @@ As a Mechanical Engineer at Fierro Fab, I take high-end resto-mod builds — cla
 
 One of the larger projects I have worked on was designing a fixture table for the 1965 Lincoln Continental. The table was designed in Autodesk Fusion using a mix of square tubing and laser-cut steel plates. I orchestrated the orders for all components, designed tooling to keep the table square during assembly, and assisted in its fabrication. Using 3D scans of the chassis, I designed custom mounting fixtures that lock the car body to the table at a precise, known location in global coordinates. A scanner tracking field — a saved network of reference targets in the scanning software — lets us scan individual sections of the car independently and automatically register them to the existing coordinate system, eliminating the need to rescan the whole chassis each work session and keeping file sizes manageable.
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="assets/fierro-fab/chassis-on-fixture-table.webp" alt="Chassis scan on the fixture-table CAD" style="height: 300px; width: auto;">
-  <img src="assets/fierro-fab/fixture-table.webp" alt="Constructed fixture table" style="height: 300px; width: auto;">
-</div>
+{% include image-pair.html left="assets/fierro-fab/chassis-on-fixture-table.webp" alt_left="Chassis scan on the fixture-table CAD" right="assets/fierro-fab/fixture-table.webp" alt_right="Constructed fixture table" %}
 
 After welding, I 3D-scanned the assembled table with the chassis in place and compared it against the CAD to map flatness deviation. Most of the surface came in within 2 mm (1/16 in) across the full 9 × 18 ft span, with the largest error isolated to the bottom-right corner (shown in orange). Leveling is still ongoing — it isn't fully dialed in yet, but it's well within what our current work requires. I also designed dedicated locating fixtures, like the rear chassis fixture below, that bolt to the table's hole grid and constrain the body at known points.
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="assets/fierro-fab/fixture-table-flatness-scan.webp" alt="3D-scan flatness deviation map of the fixture table with the chassis mounted" style="height: 300px; width: auto;">
-  <img src="assets/fierro-fab/rear-locating-fixture.webp" alt="Rear chassis locating fixture bolted to the table grid" style="height: 300px; width: auto;">
-</div>
+{% include image-pair.html left="assets/fierro-fab/fixture-table-flatness-scan.webp" alt_left="3D-scan flatness deviation map of the fixture table with the chassis mounted" right="assets/fierro-fab/rear-locating-fixture.webp" alt_right="Rear chassis locating fixture bolted to the table grid" %}
 
 ### Chassis Straightening Fixtures
 
 The Lincoln's chassis carried warping from prior welding, with several sections out of position by up to half an inch. Correcting it required a dedicated set of clamping fixtures to push the necessary deflection back into specification. I estimated the required correction forces by modeling the chassis as a cantilever beam — a conservative bound on the loads involved — and ran a bolt-slip analysis to confirm the fasteners would stay engaged under the resulting shear. The fixtures were designed for laser cutting, welding, and powder coating; post-weld inspection of the first units confirmed **90° ± 0.1°** perpendicularity, showing that proper fixturing during welding prevented measurable distortion.
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="assets/fierro-fab/chassis-straightening-fixture.webp" alt="Welded chassis straightening fixture" style="height: 300px; width: auto;">
-  <img src="assets/fierro-fab/chassis-straightening-fixtures-complete.webp" alt="Completed and powder-coated straightening fixtures on the table" style="height: 300px; width: auto;">
-</div>
+{% include image-pair.html left="assets/fierro-fab/chassis-straightening-fixture.webp" alt_left="Welded chassis straightening fixture" right="assets/fierro-fab/chassis-straightening-fixtures-complete.webp" alt_right="Completed and powder-coated straightening fixtures on the table" %}
 
 ### Measurement Tower
 
 Accurate bilateral measurement is essential for verifying chassis symmetry throughout the build. A pair of cast magnesium measurement towers mount on either side of the fixture table with a crossbeam spanning between them, enabling repeatable measurements from both sides at once and symmetry checks at any stage. To interface each tower with the table, I designed a custom machined linear-rail slider — an aluminum plate riding on two parallel linear rails — that gives fine positioning beyond the table's fixed 2-inch hole grid. An integrated ruler and pointer read the exact lateral position, a brake locks the slider once set, and each slider is shimmed to its tower for perpendicularity to the table. The tower legs slot directly into the table holes for precise, repeatable location and to prevent tipping in use.
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="assets/fierro-fab/measurement-tower-on-table.webp" alt="Measurement tower mounted on the fixture table" style="height: 300px; width: auto;">
-  <img src="assets/fierro-fab/measurement-tower-slider.webp" alt="Machined linear-rail slider base of the measurement tower" style="height: 300px; width: auto;">
-</div>
+{% include image-pair.html left="assets/fierro-fab/measurement-tower-on-table.webp" alt_left="Measurement tower mounted on the fixture table" right="assets/fierro-fab/measurement-tower-slider.webp" alt_right="Machined linear-rail slider base of the measurement tower" %}
 
 ### Custom Door Handle
 
@@ -67,19 +45,13 @@ I redesigned the car's door handle, machining it from billet aluminum and replac
 
 I also extended the handle by 1/4 inch. The door panels have a scooped hand indent that varies from panel to panel; the added length keeps the handle from crossing into that dish, making the fit look intentional across the variance. Relative to an earlier concept, I substantially revised the geometry to cut machining complexity — roughly halving the estimated production cost while keeping the original design intent — and test-fit 3D-printed prototypes of every component on the door to validate fit and clearances.
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="assets/fierro-fab/door-handle-front.webp" alt="Machined billet-aluminum custom door handle" style="height: 300px; width: auto;">
-  <video style="height: 300px; width: auto;" controls autoplay loop muted><source src="assets/fierro-fab/door-handle-demo.mp4" type="video/mp4">Your browser does not support the video tag.</video>
-</div>
+{% include media-pair.html left="assets/fierro-fab/door-handle-front.webp" alt_left="Machined billet-aluminum custom door handle" right="assets/fierro-fab/door-handle-demo.mp4" alt_right="" %}
 
 ### Headlights
 
 The Lincoln's headlights are being fully redesigned — off-the-shelf options were either too modern or carried obtrusive branding, so I'm developing a custom LED module and housing to match the car's era. Each assembly is constrained by a **Kelvin kinematic mount** — a three-point cone, groove, and flat arrangement that fully constrains all six degrees of freedom without overconstraint — and is spring-preloaded against its mount points, with independent adjusters for vertical and horizontal tilt. A 3D-printed mockup validated the packaging and adjustment range. The headlights are planned to integrate into a custom billet grille that replaces the entire front fascia, unifying the lighting and grille into one machined assembly.
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="assets/fierro-fab/headlight-housing-cad.webp" alt="Headlight housing CAD" style="height: 300px; width: auto;">
-  <img src="assets/fierro-fab/headlight-kinematic-mount.webp" alt="Headlight kinematic mount assembly" style="height: 300px; width: auto;">
-</div>
+{% include image-pair.html left="assets/fierro-fab/headlight-housing-cad.webp" alt_left="Headlight housing CAD" right="assets/fierro-fab/headlight-kinematic-mount.webp" alt_right="Headlight kinematic mount assembly" %}
 
 ### Wheels, Tubs, and Suspension Geometry
 
@@ -87,32 +59,23 @@ For a car putting over 1,000 horsepower to the road, the wheels and tires are cr
 
 To validate fitment before cutting any metal, I reverse-engineered the existing suspension geometry from 3D scans. The model lets me simulate full suspension travel and catch collisions between moving components and panels at any ride height, and it doubles as a visual reference for customer reviews.
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <video style="height: 300px; width: auto;" controls autoplay loop muted><source src="assets/fierro-fab/suspension-travel.mp4" type="video/mp4">Your browser does not support the video tag.</video>
-  <img src="assets/fierro-fab/wheel-design.webp" alt="Render of the updated wheel design" style="height: 300px; width: auto;">
-</div>
+{% include media-pair.html left="assets/fierro-fab/suspension-travel.mp4" alt_left="" right="assets/fierro-fab/wheel-design.webp" alt_right="Render of the updated wheel design" %}
 
 To validate the wheel before committing to machining, I 3D-printed a full-size prototype and mounted it on a **325/35ZR21 Continental SportContact 7**. The design uses a flush whitewall — the white band sits level with the face of the tire, recreating the classic whitewall look while keeping a modern thin-sidewall performance profile. The prototype is currently out for machining.
 
-<div style="display: flex; justify-content: center;">
-  <img src="assets/fierro-fab/wheel-3dp-prototype.webp" alt="3D-printed wheel prototype with a flush whitewall, mounted on a tire" style="height: 400px; width: auto;">
-</div>
+{% include image-single.html src="assets/fierro-fab/wheel-3dp-prototype.webp" alt="3D-printed wheel prototype with a flush whitewall, mounted on a tire" %}
 
 ### Concealed Gas Filler
 
 I am also redesigning the rear taillight to conceal a fuel-filler compartment behind the lens. When released, the taillight pivots outward to expose the fuel cap — a fully integrated solution with no visible external hardware. The motion comes from a cam-slider linkage driven by a gas strut that rotates a linkage arm into the controlled pivot, with a manual override providing access independent of the electronics. The current prototype combines 3D-printed iterative parts, sheet-metal cam geometry, and a temporary CNC-machined taillight arm; the control electronics are mocked up on an Arduino driving the release and status LEDs from a hall-effect sensor and a button. Development is paused pending chassis alignment and final body-panel positioning, which will define the mounting envelope.
 
-<div style="display: flex; justify-content: center;">
-  <img src="assets/fierro-fab/taillight-cad.webp" alt="CAD model of the redesigned taillight" style="height: 400px; width: auto;">
-</div>
+{% include image-single.html src="assets/fierro-fab/taillight-cad.webp" alt="CAD model of the redesigned taillight" %}
 
 ### Side Mirrors
 
 The Lincoln's side mirrors are being redesigned around the existing mirror internals and motorized adjustment hardware. Matching the original silhouette while packaging modern components calls for extensive compound-surface work.
 
-<div style="display: flex; justify-content: center;">
-  <img src="assets/fierro-fab/side-mirror-cad.webp" alt="Side mirror CAD model" style="height: 400px; width: auto;">
-</div>
+{% include image-single.html src="assets/fierro-fab/side-mirror-cad.webp" alt="Side mirror CAD model" %}
 
 ### Engine Bay Layout
 
@@ -122,15 +85,10 @@ The engine bay is being digitally mocked up by scanning and aligning the engine,
 
 Working from a customer concept and 3D scans of the existing panel cutouts, I designed a full grille to mount on existing brackets set at compound angles. Because the panel stamping is asymmetric, the left and right halves had to be modeled as separate parts. After iterative 3D printing, the final parts were sanded, coated, and installed on the car — the project ran from initial scan to customer delivery in about two weeks.
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="assets/fierro-fab/camaro-grill-cad.webp" alt="Custom Camaro grill CAD" style="height: 300px; width: auto;">
-  <img src="assets/fierro-fab/camaro-grill-installed.webp" alt="Finished custom grill installed on the Camaro" style="height: 300px; width: auto;">
-</div>
+{% include image-pair.html left="assets/fierro-fab/camaro-grill-cad.webp" alt_left="Custom Camaro grill CAD" right="assets/fierro-fab/camaro-grill-installed.webp" alt_right="Finished custom grill installed on the Camaro" %}
 
 ### Reverse Light
 
 A backup (reverse) light that mounts to the rear bumper and illuminates when the car is in reverse. I prototyped the housing and lens fit by 3D-printing the bezel around a clear lens.
 
-<div style="display: flex; justify-content: center;">
-  <img src="assets/fierro-fab/backup-light-lens-prototype.webp" alt="Prototype backup/reverse light — clear lens in a 3D-printed bezel" style="height: 400px; width: auto;">
-</div>
+{% include image-single.html src="assets/fierro-fab/backup-light-lens-prototype.webp" alt="Prototype backup/reverse light — clear lens in a 3D-printed bezel" %}

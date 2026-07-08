@@ -1,0 +1,18 @@
+<div class="img-gallery">
+  {% if include.left contains ".mp4" %}
+  <video class="gallery-img" controls autoplay loop muted>
+    <source src="{{ include.left }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  {% else %}
+  <img src="{{ include.left }}" alt="{{ include.alt_left }}" class="gallery-img">
+  {% endif %}
+  {% if include.right contains ".mp4" %}
+  <video class="gallery-img" controls autoplay loop muted>
+    <source src="{{ include.right }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  {% else %}
+  <img src="{{ include.right }}" alt="{{ include.alt_right }}" class="gallery-img">
+  {% endif %}
+</div>

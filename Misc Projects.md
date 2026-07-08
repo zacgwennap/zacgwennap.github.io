@@ -13,9 +13,7 @@ nav_order: 4
 
 As a group project for Experimentation and Measurements, we investigated the tensile properties of different FDM infill geometries, earning second place in the class competition. I led the data analysis pipeline, using **MATLAB** to perform all mathematical calculations and to process video footage for displacement tracking. Strain data from an Instron tensile testing machine was cross-validated against displacement measurements extracted from video, providing an independent verification of the mechanical results.
 
-<div class="img-gallery">
-  <img src="assets/poster.jpg" alt="Group Poster" class="gallery-img gallery-img--wide">
-</div>
+{% include image-single.html src="assets/poster.jpg" alt="Group Poster" wide=true %}
 
 Microscope cross-sections of the printed specimens confirmed an actual part density of approximately 99%, validating the print parameters used in the study.
 
@@ -27,13 +25,7 @@ Microscope cross-sections of the printed specimens confirmed an actual part dens
 
 For a class project, I designed and built an LED matrix display that shows the current time and local weather based on GPS location. The display is mounted to a bistable latch mechanism that allows it to rotate between a flat storage position and an upright display position without requiring a powered hold in either state.
 
-<div class="img-gallery">
-  <img src="assets/led_screen.jpg" alt="LED Matrix Display" class="gallery-img">
-  <video class="gallery-img" controls autoplay loop muted>
-    <source src="assets/bistable_latch.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
+{% include media-pair.html left="assets/led_screen.jpg" alt_left="LED Matrix Display" right="assets/bistable_latch.mp4" alt_right="" %}
 
 ---
 
