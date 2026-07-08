@@ -31,9 +31,7 @@ After welding, I 3D-scanned the assembled table with the chassis in place and co
 
 The Lincoln's chassis carried warping from prior welding, with several sections out of position by up to half an inch. Correcting it required a dedicated set of clamping fixtures to push the necessary deflection back into specification. I estimated the required correction forces by modeling the chassis as a cantilever beam — a conservative bound on the loads involved — and ran a bolt-slip analysis to confirm the fasteners would stay engaged under the resulting shear. The fixtures were designed for laser cutting, welding, and powder coating; post-weld inspection of the first units confirmed **90° ± 0.1°** perpendicularity, showing that proper fixturing during welding prevented measurable distortion.
 
-{% include image-pair.html left="assets/fierro-fab/chassis-straightening-fixture.webp" alt_left="Welded chassis straightening fixture" right="assets/fierro-fab/chassis-straightening-fixtures-complete.webp" alt_right="Completed and powder-coated straightening fixtures on the table" %}
-
-{% include image-single.html src="assets/fierro-fab/chassis-fixture-rear-rail.webp" alt="New chassis fixture locating the rear frame rail on the table" %}
+{% include image-pair.html left="assets/fierro-fab/chassis-straightening-fixture.webp" alt_left="Welded chassis straightening fixture" right="assets/fierro-fab/chassis-fixture-rear-rail.webp" alt_right="New chassis fixture locating the rear frame rail on the table" %}
 
 ### Measurement Tower
 
@@ -49,13 +47,11 @@ I also extended the handle by 1/4 inch. The door panels have a scooped hand inde
 
 {% include media-pair.html left="assets/fierro-fab/door-handle-front.webp" alt_left="Machined billet-aluminum custom door handle" right="assets/fierro-fab/door-handle-demo.mp4" alt_right="" %}
 
-### Headlights
+### Grille and Headlights
 
 The Lincoln's headlights are being fully redesigned — off-the-shelf options were either too modern or carried obtrusive branding, so I'm developing a custom LED module and housing to match the car's era. Each assembly is constrained by a **Kelvin kinematic mount** — a three-point cone, groove, and flat arrangement that fully constrains all six degrees of freedom without overconstraint — and is spring-preloaded against its mount points, with independent adjusters for vertical and horizontal tilt. A 3D-printed mockup validated the packaging and adjustment range.
 
-{% include image-pair.html left="assets/fierro-fab/headlight-housing-cad.webp" alt_left="Headlight housing CAD" right="assets/fierro-fab/headlight-kinematic-mount.webp" alt_right="Headlight kinematic mount assembly" %}
-
-### Grille
+{% include image-single.html src="assets/fierro-fab/headlight-kinematic-mount.webp" alt="Headlight kinematic mount assembly" %}
 
 The headlights integrate into a custom grille that replaces the entire front fascia, unifying the lighting and grille into a single assembly — the headlight housings mount directly into the grille structure. The fin geometry is now largely fleshed out, with 3D-printed sections used to validate the design on the car. The headlight lenses were printed in clear resin on a Formlabs Form 4 and mounted to the housings.
 
@@ -69,7 +65,7 @@ For a car putting over 1,000 horsepower to the road, the wheels and tires are cr
 
 To validate fitment before cutting any metal, I reverse-engineered the existing suspension geometry from 3D scans. The model lets me simulate full suspension travel and catch collisions between moving components and panels at any ride height, and it doubles as a visual reference for customer reviews.
 
-{% include media-pair.html left="assets/fierro-fab/suspension-travel.mp4" alt_left="" right="assets/fierro-fab/wheel-design.webp" alt_right="Render of the updated wheel design" %}
+{% include media-pair.html left="assets/fierro-fab/suspension-travel.mp4" alt_left="" right="assets/fierro-fab/front-suspension-cad.webp" alt_right="CAD model of the reverse-engineered front suspension" %}
 
 To validate the wheel before committing to machining, I 3D-printed a full-size prototype and mounted it on a **325/35ZR21 Continental SportContact 7**. The design uses a flush whitewall — the white band sits level with the face of the tire, recreating the classic whitewall look while keeping a modern thin-sidewall performance profile. The prototype is currently out for machining.
 
